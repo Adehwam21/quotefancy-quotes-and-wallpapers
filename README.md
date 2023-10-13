@@ -4,7 +4,7 @@ This Python script allows you to scrape quotes and wallpapers from the QuoteFanc
 
 ## Overview
 
-**QuoteFancy Scraper** is a web scraping project that extracts motivational quotes and wallpapers from the QuoteFancy website. It uses Python along with the Beautiful Soup library for web scraping.
+**QuoteFancy Scraper** is a web scraping project that extracts motivational quotes and wallpapers from the QuoteFancy website. It uses Python along with the Beautiful Soup library for the web scraping and it uses Pandas for data visualization.
 
 ## Getting Started
 
