@@ -1,6 +1,6 @@
 # QuoteFancy Scraper
 
-This Python script allows you to scrape motivational quotes and wallpapers from the QuoteFancy website. It retrieves quotes along with their corresponding authors and wallpaper download links.
+This Python script allows you to scrape quotes and wallpapers from the QuoteFancy website. It retrieves quotes along with their corresponding authors and quote wallpaper download links.
 
 ## Overview
 
