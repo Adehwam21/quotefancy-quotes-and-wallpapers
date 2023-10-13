@@ -4,15 +4,19 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
+# You can add the quote fancy url to the list.
+# Choose which page you want to run the script on via their index.
+
 URLs = ['https://quotefancy.com/motivational-quotes',
         'https://quotefancy.com/positive-quotes',
         'https://quotefancy.com/quotes-about-life']
-status = requests.get(URLs[0])
+status = requests.get(URLs[0]) 
 print(status)
 
 page = status.content
 soup = BeautifulSoup(page, 'html.parser')
 print(soup)
+
 
 # Scraping Quotes and Authors
 
@@ -39,6 +43,7 @@ for quote_details in quote_elements:
     quotes_data.append(quote)  # Append the current quote to the list
 
 print(quotes_data)
+
 
 #Scraping wallpaper links
 
