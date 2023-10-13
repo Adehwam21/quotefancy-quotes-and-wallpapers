@@ -1,34 +1,46 @@
-QuoteFancy Scraper
+# QuoteFancy Scraper
+
 This Python script allows you to scrape motivational quotes and wallpapers from the QuoteFancy website. It retrieves quotes along with their corresponding authors and wallpaper download links.
 
-Overview
-QuoteFancy Scraper is a web scraping project that extracts motivational quotes and wallpapers from the QuoteFancy website. It uses Python along with the Beautiful Soup library for web scraping.
+## Overview
 
-Getting Started
-Prerequisites
-Make sure you have the following installed before running the script:
+**QuoteFancy Scraper** is a web scraping project that extracts motivational quotes and wallpapers from the QuoteFancy website. It uses Python along with the Beautiful Soup library for web scraping.
 
-Python 3.x
-Beautiful Soup (pip install beautifulsoup4)
-Requests (pip install requests)
-How to Use
-Running the Script in Google Colab
-Open the provided Colab notebook.
-Upload your dataset or provide necessary input.
-Execute the cells in the notebook to run the script.
-Running the Script Locally
-Clone the repository to your local machine.
-Open the script file (quote_fancy_scraper.py) in your preferred IDE or text editor.
-Run the script. Ensure you have installed the required libraries mentioned in the prerequisites section.
-Example Usage
-bash
-Copy code
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed before running the script locally:
+
+- **Python 3.x**
+- **Beautiful Soup** (`pip install beautifulsoup4`)
+- **Requests** (`pip install requests`)
+- **Pandas** (`pip install pandas`)
+
+### How to Use
+
+#### Running the Script in Google Colab
+
+1. Open the provided Colab notebook.
+2. Copy and paste the code into a cell.
+3. Run the cell.
+
+
+#### Running the Script Locally
+
+1. Clone the repository to your local machine.
+2. Open the script file (`quote_fancy_scraper.py`) in your preferred IDE or text editor and open the terminal.
+3. Copy and paste this command in your terminal
+
+```bash
 python quote_fancy_scraper.py
-Output
-The script will create a CSV file named quotes.csv containing the scraped quotes, authors, and wallpaper download links.
+```
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Output
+The script will create two CSV files named **Quotes.csv** and **Quote_Wallpapaers.csv** containing the scraped quotes, authors, and wallpaper download links.
 
-Acknowledgments
-Thanks to the Beautiful Soup and Requests libraries for simplifying web scraping tasks.
+### Acknowledgement
+Thanks to the Beautiful Soup, Requests and Pandas libraries for simplifying web scraping tasks.
+
+Dont forget to follow me. 
+Thank You.
